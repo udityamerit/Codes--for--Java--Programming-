@@ -10,8 +10,8 @@ public class _1_Rock_Paper_and_Scissor_Game {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Random random = new Random();
-        int x = random.nextInt(3);
+//        Random random = new Random();
+//        int x = random.nextInt(3);
 //        System.out.println(x);
 
         System.out.println("Welcome to the Rock Paper & Scissor Game:");
@@ -22,6 +22,9 @@ public class _1_Rock_Paper_and_Scissor_Game {
         int i = 0;
 
         while (i<number_of_chances){
+            Random random = new Random();
+            int x = random.nextInt(3);
+//            System.out.println(x);
             int rn = number_of_chances - i;
             System.out.println(" Total Remaining number_of_chances is: "+ rn);
 
