@@ -38,7 +38,16 @@ public class _1_Rock_Paper_and_Scissor_Game {
 //            List<Integer> l2 = new ArrayList<Integer>();
 //            List<Integer> l3 = new ArrayList<Integer>();
 
-            System.out.println("Computer choose the number : "+ x);
+//            System.out.println("Computer choose the number : "+ x);
+            if(x==0){
+                System.out.println("Computer choose : Rock ");
+            }
+            else if(x==1){
+                System.out.println("Computer choose : Paper ");
+            }
+            else if(x==2){
+                System.out.println("Computer choose : Scissor ");
+            }
             System.out.println("you choose the number : "+ num);
 
         if (num>=3){
